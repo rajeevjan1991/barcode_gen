@@ -37,11 +37,11 @@ export const metadata: Metadata = {
 		address: false,
 		telephone: false,
 	},
-	metadataBase: new URL(""),
+	metadataBase: new URL("https://www.8aiku.com/"),
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "",
+		url: "https://www.8aiku.com/",
 		title: "8aiku - Barcode Generator",
 		description:
 			"Barcode generator online.",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		title: "8aiku - Barcode Generator",
 		description:
-			"8aiki bar generator.",
+			"8aiku barcode generator.",
 		images: ["/src/assets/barcoda.avif"],
 		creator: "@krtclcdy",
 	},
