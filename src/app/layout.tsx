@@ -37,12 +37,12 @@ export const metadata: Metadata = {
 		address: false,
 		telephone: false,
 	},
-	metadataBase: new URL("https://barcoda.vercel.app"),
+	metadataBase: new URL(""),
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://barcoda.vercel.app",
-		title: "Barcoda - Barcode Generator",
+		url: "",
+		title: "8aiku - Barcode Generator",
 		description:
 			"Barcode generator online.",
 		siteName: "8aiku Barcode tool",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		title: "8aiku - Barcode Generator",
 		description:
-			"Modern barcode generator that combines sleek design with seamless functionality. Built on Next.js, Tailwind, and Shadcn for effortless customization.",
+			"8aiki bar generator.",
 		images: ["/src/assets/barcoda.avif"],
 		creator: "@krtclcdy",
 	},
