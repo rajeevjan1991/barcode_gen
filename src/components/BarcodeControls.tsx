@@ -221,7 +221,6 @@ export const BarcodeControls: React.FC<BarcodeControlsProps> = ({
 			<fieldset
 				className="flex items-center space-x-2"
 				aria-labelledby="text-display-label"
-				hidden
 			>
 				<span id="text-display-label" className="sr-only">
 					Text Display Options
