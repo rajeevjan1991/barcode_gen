@@ -150,7 +150,7 @@ export const BarcodeControls: React.FC<BarcodeControlsProps> = ({
 				</Select>
 			</div>
 
-			{/* Bar Width Slider */}
+			<div className="grid grid-cols-3 grid-rows-1 gap-6">
 			<div className="space-y-4">
 				<Label htmlFor="barWidth-slider">Bar Width ({barWidth}px)</Label>
 				<Slider
@@ -179,6 +179,8 @@ export const BarcodeControls: React.FC<BarcodeControlsProps> = ({
 					className="touch-none"
 				/>
 			</div>
+			{/* Bar Width Slider */}
+			
 
 			{/* Margin Slider */}
 			<div className="space-y-4">
@@ -194,7 +196,9 @@ export const BarcodeControls: React.FC<BarcodeControlsProps> = ({
 					className="touch-none"
 				/>
 			</div>
+			</div>
 
+			<div className="grid grid-cols-2 grid-rows-1 gap-6">
 			{/* Background Color Picker */}
 			<div className="space-y-4">
 				<Label htmlFor="background">Background Color</Label>
@@ -216,7 +220,7 @@ export const BarcodeControls: React.FC<BarcodeControlsProps> = ({
 					onChange={(e) => setLineColor(e.target.value)}
 				/>
 			</div>
-
+			</div>
 			{/* Show Text Toggle */}
 			<fieldset
 				className="flex items-center space-x-2"
