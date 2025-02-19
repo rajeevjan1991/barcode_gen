@@ -6,10 +6,10 @@ export function Footer() {
 		<footer className="border-t bg-background/95 backdrop-blur-sm supports-backdrop-filter:bg-background/60 mt-auto">
 			<div className="container flex h-14 items-center justify-between">
 				<p className="text-sm">
-					© {new Date().getFullYear()} <a href="/">8aiku</a> | All rights
+					© {new Date().getFullYear()} <a href="https://www.8aiku.com/">8aiku</a> | All rights
 					reserved.
 				</p>
-				<div className="flex items-center space-x-4">
+				<div className="flex items-center space-x-4 hidden">
 					<a
 						href="https://8aiku.com/"
 						target="_blank"
