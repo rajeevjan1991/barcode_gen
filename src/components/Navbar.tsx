@@ -25,7 +25,7 @@ export function Navbar() {
 					<MenuItem setActive={setActive} active={active} item="Features">
 					<div className="flex flex-col space-y-4 text-sm">
 					<HoveredLink href="/imageocr">Image to text</HoveredLink>
-					<HoveredLink href="https://text-to-qr-zeta.vercel.app/" target="_blank" >Text to qr generator</HoveredLink>
+					<HoveredLink href="https://8aiku.com/extract_qr/gen_barcode/" target="_blank" >Text to qr generator</HoveredLink>
 					<HoveredLink href="https://barcode-gen-zeta.vercel.app/" target="_blank">Barcode generator</HoveredLink>
 					<HoveredLink href="https://8aiku.com/extract_qr" target="_blank">Barcode decode</HoveredLink>
 					</div>
